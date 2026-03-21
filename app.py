@@ -252,18 +252,18 @@ def process_banner_image(data, avatar_bytes, banner_bytes, pin_bytes, is_default
 async def home():
     return {
         "message": "⚡ Ultra Fast Banner API Running",
-        "Fix By": "agajayofficial",
-        "Telegram": "@agajayofficial",
+        "Fix By": "FL4SH_FF",
+        "Telegram": "@flash_ff_70",
         "Your Info Api": INFO_API_URL,
-        "Api Endpoint": "/profile?uid={uid}&key={banner_key}",
-        "Note": "Join To @Flexbasei For More 💝",
+        "Api Endpoint": "/banner?uid={uid}&key={banner_key}",
+        "Note": "Join To @flash_ff_70 For More 💝",
         "API Keys": {
             "info_api_key": INFO_API_KEY,
             "banner_api_key": BANNER_API_KEY
         }
     }
 
-@app.get("/profile")
+@app.get("/banner")
 async def get_banner(uid: str, key: str):
     # Check banner API key first
     if not uid or not key:
