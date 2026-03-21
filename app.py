@@ -58,7 +58,7 @@ INFO_API_URL = "https://flash-player-info.vercel.app/info"
 
 # API Keys - SEPARATE KEYS
 INFO_API_KEY = "Flash"  # Key for info API
-BANNER_API_KEY = "Flash2hour"  # Key for banner API (you can change this)
+BANNER_API_KEY = "Flash"  # Key for banner API (you can change this)
 
 # ========== DEFAULT IMAGES ==========
 DEFAULT_AVATAR_URL = "https://i.postimg.cc/8ccqg7dq/IMG-20260320-124950.jpg"
